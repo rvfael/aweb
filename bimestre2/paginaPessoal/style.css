@@ -70,23 +70,24 @@ header nav ul li a {
     padding: 20px;
     background-color: var(--secondary-color);
     overflow: hidden;
+    text-align: center;
 }
 
-#curiosities .card {
+.card {
     width: 30%;
-    float: left;
-    margin: 1.66%;
+    margin: 1.20%;
     background-color: var(--background-color);
     padding: 15px;
     box-sizing: border-box;
     text-align: center;
+    align-items: center;
+    display: inline-block;
 }
-
 #curiosities .card img {
     width: 100%;
     height: auto;
+    object-fit: cover;
 }
-
 #education, #skills {
     padding: 20px;
     background-color: var(--background-color);
