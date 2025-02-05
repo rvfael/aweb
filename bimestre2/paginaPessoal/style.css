@@ -1,0 +1,110 @@
+/* Paleta de Cores */
+:root {
+    --primary-color: #2c3e50; /* Cor principal (60%) */
+    --secondary-color: #3498db; /* Cor secundária (30%) */
+    --accent-color: #e74c3c; /* Cor de destaque (10%) */
+    --text-color: #ecf0f1; /* Cor do texto */
+    --background-color: #ffffff; /* Cor de fundo */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+#hero {
+    background-color: var(--secondary-color);
+    padding: 50px;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    color: var(--text-color);
+}
+
+#hero img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-top: 20px;
+}
+
+#about {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#curiosities {
+    padding: 20px;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+}
+
+#curiosities .card {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    background-color: var(--background-color);
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#curiosities .card img {
+    width: 100%;
+    height: auto;
+}
+
+#education, #skills {
+    padding: 20px;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+footer h2 {
+    margin: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
